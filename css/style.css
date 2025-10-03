@@ -181,3 +181,32 @@ z-index: -99;
     border-radius: 50%;
     z-index: -1;
 }
+
+.pop {
+    background-color: #fff;
+    position: absolute;
+    /* height: 6rem; */
+    width: 15rem; 
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    bottom:2rem;
+    right: 3rem;
+}
+
+
+.cap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
