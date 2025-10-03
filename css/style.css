@@ -11,13 +11,11 @@
 }
 
 .box {
-    /* width: 100%;
-    height: 100vh; */
+
     padding: 0;
 }
 
 .navbar {
-    /* height: 5rem; */
     width: 100%;
     padding: .5rem;
     display: flex;
@@ -31,7 +29,7 @@
     align-items: center;
     justify-content: center;
     width: 20%;
-   
+
 }
 
 .icon {
@@ -43,7 +41,7 @@
 
 .brandName {
     padding: 10px;
-    line-height:0;
+    line-height: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,17 +54,18 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
-    
+
+
 }
 
 .navLinks a {
     text-decoration: none;
     color: #000;
+    font-weight: 400;
 }
 
 .navbtn {
-    /* background-color: cadetblue; */
+
     width: 20%;
     display: flex;
     align-items: center;
@@ -74,12 +73,54 @@
 }
 
 .getbtn {
-    background-color:#fa1239;
+    background-color: #fa1239;
     border-radius: 5rem;
     color: #fff;
-    box-shadow: 0 0  10px #ef5972 ;
+    box-shadow: 0 0 10px #ef5972;
     border: none;
     padding: 8px 15px;
     cursor: pointer;
 }
 
+.resumeBtn {
+    background-color: #fff;
+    border-radius: 5rem;
+    color: #fa1239;
+    box-shadow: 0 0 10px #ef5972;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.heroSection{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #ffc0cb 0%, #ffb6c8 25%, #ffd1dc 50%, #ffb3c6 75%, #ffc0cb 100%);
+background-size: 400% 400%;
+animation: gradientShift 15s ease infinite;
+padding: .5rem;
+
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.leftSection {
+    width: 60%;
+    /* background-color:cornflowerblue ; */
+}
+
+.heroBtns {
+   margin-top: 2rem;
+}
